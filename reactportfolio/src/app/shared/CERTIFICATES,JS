@@ -1,0 +1,37 @@
+import intro_cert from '../assets/img/intro_cert.png'
+import Modern_Software_EngineeDevOps_Certificate from '../assets/img/Modern_Software_EngineeDevOps_Certificate'
+
+export const CERTIFICATES = [
+    {
+        id: 0,
+        name: 'intro to software certificate',
+        image: intro_cert ,
+        featured: false,
+        description:
+            'lorem ipsum'
+    },
+    {
+        id: 1,
+        name: 'Modern backend software development',
+        image: Modern_Software_EngineeDevOps_Certificate,
+        featured: false,
+        description:
+            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+    },
+    {
+        id: 2,
+        name: 'Python Certificate',
+        image: dataw,
+        featured: false,
+        description:
+            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+    },
+    {
+        id: 3,
+        name: 'Redux Woods Campground',
+        image: reduxWoodsImg,
+        featured: true,
+        description:
+            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+    }
+];
